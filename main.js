@@ -35,7 +35,7 @@ var mainState = {
         }
         
         if(this.keyboard.up.isDown){
-            this.player.body.velocity.y = -5000;
+            this.player.body.velocity.y = -300;
             
         }
     }
