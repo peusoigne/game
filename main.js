@@ -29,13 +29,13 @@ var mainState = {
         
         this.player.body.velocity.x = 0;
         if(this.keyboard.right.isDown){
-            this.player.body.velocity.x = 5000;
+            this.player.body.velocity.x = 300;
         }else if(this.keyboard.left.isDown) { 
-            this.player.body.velocity.x = -5000;
+            this.player.body.velocity.x = -300;
         }
         
         if(this.keyboard.up.isDown){
-            this.player.body.velocity.y = -300;
+            this.player.body.velocity.y = -5000;
             
         }
     }
